@@ -1,0 +1,110 @@
+
+body{
+    background-color: #515151;
+}
+
+/*============================导航部分========================*/
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #ffab4a;
+    overflow: hidden;
+}
+nav li{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    /*background-color: red;*/
+}
+nav li:first-child{
+    margin-left: 0;
+}
+nav li:hover{
+    background-color: #ff891c;
+}
+nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+}
+nav a:link,nav a:visited,nav a:hover,nav a:active{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.container{
+    overflow: hidden;
+}
+.videoDiv{
+    /*min-width: 1170px;*/
+    margin-top: 50px;
+    
+}
+video{
+    width: 100%;
+}
+.video{
+    position: relative;
+    overflow: hidden;
+}
+.video:hover .down{
+    visibility: visible;
+    right: 0;
+}
+.whichVideo{
+    background-color: #767676;
+    color: white;
+    height: 100%;
+}
+.videoName{
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    justify-content:space-between;
+}
+.videoName h5{
+    color: orange;
+}
+.videoItemDiv{
+    margin: 20px 0 30px 0;
+}
+.videoItem{
+    
+    width: 40px;
+    height: 40px;
+    background-color: #6c6c6c;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin: 3px;
+}
+.down{
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    background-color: #6c6c6c;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    visibility: hidden;
+    transition: all .5s linear;
+}
+.play{/*正在播放的集数背景色是黄色*/
+    background-color: orange;
+
+}

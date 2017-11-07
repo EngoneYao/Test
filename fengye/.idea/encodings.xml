@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/footer.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/index.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/manger.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/userinfo.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/forget.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/header1.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/manger.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/register.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/up.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/userinfo.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/video.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/fileModule.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/mySql.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/smsModule.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/footer.ejs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/header1.ejs" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>上传</title>
+    <style>
+        body{
+            background: url("img/mangerBG.jpg") no-repeat fixed;
+            background-size: cover;
+            padding: 20px;
+        }
+        form{
+            margin: 50px 0 0 50px;
+        }
+        .remain{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            z-index: 5;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div><a href="manger.do">返回视频列表</a></div>
+<form enctype="multipart/form-data" id="video">
+    <!-- 如果是文件，必须加enctype属性,他表示不要将文件编码-->
+    <span>上传视频：</span>
+    <input type="file" name="myFile"/>
+    <select name="type" id="videoType">
+        <option value=""></option>
+    </select>
+        <span>视频名字：</span><input type="text" name="v_name" id="vName"/>
+        <span>视频描述：</span><input type="text" name="des" id="vDes"/>
+
+
+    <input type="button" value="确定" onclick="upVideo()"/>
+</form>
+
+
+
+<form enctype="multipart/form-data" id="pic">
+    <!-- 如果是文件，必须加enctype属性,他表示不要将文件编码-->
+    <span>上传图片：</span>
+    <input type="file" name="myFile"/>
+    <select name="type" id="type">
+        <option value=""></option>
+    </select>
+    <input type="button" value="确定" onclick="upPic()"/>
+</form>
+
+
+
+<div class="remain"></div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/up.js">
+
+</script>
+</body>
+</html>

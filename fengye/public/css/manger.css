@@ -1,0 +1,104 @@
+*{
+    font-family: "微软雅黑;
+}
+
+body{
+    background: url("../img/mangerBG.jpg") no-repeat fixed;
+    background-size: cover;
+    padding: 20px;
+}
+.manger{
+    color: orange;
+}
+.typeSon{
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-color: #eaca18;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.type{
+    background-color: #eaca18;
+    margin: 20px 0 20px 0;
+
+}
+.typeSon:hover{
+    background-color: orange;
+}
+.up{
+    color: white;
+    display: inline-block;
+    background-color: rgba(255, 188, 0, 0.97);
+    border-radius: 3px;
+    padding: 10px 22px;
+    cursor: pointer;
+}
+.up a:link,.up a:visited,.up a:hover,.up a:active{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.videoUl{
+    margin: 0;
+    padding: 0;
+}
+
+.videoUl li{
+
+   list-style: none;
+    /*display: flex;*/
+    /*justify-content:space-between;*/
+}
+.videoUl li div{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.delete{
+    cursor: pointer;
+}
+video{
+    width: 50px;
+    height: 40px;
+}
+
+
+
+.picDiv div{
+    display: inline-block;
+    height: 250px;
+    position: relative;
+    border: 1px solid red;
+}
+.picDiv div img{
+    height: 100%;
+}
+.deletePic{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(83, 83, 83, 0.69);
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+}
+.deletePic:hover{
+    background-color: orange;
+}
+
+

@@ -1,0 +1,76 @@
+*{
+    font-family: "微软雅黑";
+}
+
+/*====================头部部分============*/
+/*=====logo=*/
+.logo{
+    /*background-color: green;*/
+    height: 78px;
+}
+/*==搜索框==*/
+.search{
+    font-size: 16px;
+    /*background-color: red;*/
+    padding: 19px 0 19px 0;/*保证三部分都是78px的高*/
+}
+.searchDiv{
+    border-radius: 8px;
+    border: 1px solid #c5c5c5;
+    display: inline-block;
+    background-color: #ffab4a;
+    overflow: hidden;/*没有给input设置圆角*/
+}
+.searchDiv input{
+    border: none;
+    padding: 8px 0 8px 5px;
+    outline: none;/*这是获取焦点时的轮廓*/
+}
+
+.searchDiv span{
+    padding: 0 20px 0 20px;
+    top: 2px;
+    color: #e1e1e1;
+}
+.searchDiv span:hover{
+    cursor: pointer;
+}
+/*登录注册部分*/
+.user{
+    /*background-color: green;*/
+    height: 78px;
+    line-height: 78px;
+}
+
+/*============================导航部分========================*/
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #ffab4a;
+    overflow: hidden;
+}
+nav li{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    /*background-color: red;*/
+}
+nav li:first-child{
+    margin-left: 0;
+}
+nav li:hover{
+    background-color: #ff891c;
+}
+nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+}
+nav a:link,nav a:visited,nav a:hover,nav a:active{
+    color: white;
+    text-decoration: none;
+}

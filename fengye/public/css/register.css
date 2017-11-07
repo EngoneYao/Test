@@ -1,0 +1,90 @@
+
+body{
+    background: url("../img/registerBG.jpg") fixed no-repeat;
+    background-size: cover;
+}
+.main{
+    width: 400px;
+    border: 1px solid gray;
+    margin: 100px auto;
+    padding: 20px 60px 20px 60px;
+    background-color: white;
+}
+.main p{
+    font-size: 20px;
+    color: orange;
+    display: inline-block;
+}
+.main div{
+    margin: 15px 0 15px 0;
+}
+.phone,.password{
+    font-size: 16px;
+}
+.phone input,.password input{
+    border: none;
+    outline: none;
+    padding: 5px 0 5px 5px;
+    border-left: 1px solid gray;
+}
+.border span{/*输入框中的图标*/
+    margin-left: 3px;
+}
+
+.border{/*输入框的外面div*/
+    background-color: white;
+    border: 1px solid gray;
+    /*display: inline-block;*/
+}
+.getCode{/*获取验证码按钮*/
+    color: orange;
+}
+.resisterDiv{/*注册按钮外的div*/
+   
+}
+.registerBtn{
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: #e89600;
+    outline: none;
+    border:none;
+    font-size: 20px;
+    border-radius: 3px;
+    position: relative;
+}
+.registerBtn:hover{
+    background-color: orange;
+}
+.goLogin{
+    text-align: right;
+}
+.remain{
+    color: red;
+}
+
+.code{
+    width: 70px;
+}
+.success{
+    padding-top: 10%;
+    position: fixed;
+    width:100%;
+    height: 100%;
+    z-index: 5;
+    top: 0;
+    left: 0;color: white;
+    background-color: black;
+    visibility: hidden;
+}
+.sure{
+    font-size: 18px;
+    background-color: orange;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+}
+.sure:hover{
+    background-color: rgb(255, 203, 19);
+}

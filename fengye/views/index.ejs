@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/header1.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+
+</head>
+<body>
+<%-include("header1.ejs")%>
+<div class="container banner">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <!-- Indicators -->
+        <ol class="carousel-indicators textRight">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"><span>1</span></li>
+            <li data-target="#myCarousel" data-slide-to="1"><span>2</span></li>
+            <li data-target="#myCarousel" data-slide-to="2"><span>3</span></li>
+            <li data-target="#myCarousel" data-slide-to="3"><span>4</span></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/1.jpg" alt="...">
+                <div class="carousel-caption">
+                    <p>
+                        <a href="video.html" data-video="DJSSG">养个男鬼当男友</a>
+                        每个青春期的少女都曾梦想过自己的白马王子，也曾想过在自己有难时，
+                        白马王子会向自己伸出援手。女主叶明菲也不例外，但她没想到，她遇到的不是白马王子，
+                        而是一只鬼。
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/2.jpg" alt="...">
+                <div class="carousel-caption">
+                    <p>
+                        <a href="video.html" data-video="DJSSG">狐妖小红娘</a>
+                        根据古典小说记载,世上有人有妖,妖会与人相恋,妖寿命千万年,人的寿命有限,人死了,
+                        妖活着.人会投胎转世,但投胎以后,不记得上辈子的爱.妖如果痴情的话...
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/3.jpg" alt="...">
+                <div class="carousel-caption">
+                    <p>
+                        <a href="video.html" data-video="DJSSG">银之守墓人</a>
+                        穷苦的高中生陆水银是个游戏达人，某天他突然获得了5亿遗产，不料全是游戏币！
+                        紧接着自己心仪的女生被人绑架，一连串神秘事件接踵而至，而他也被迫...
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/4.jpg" alt="...">
+                <div class="carousel-caption">
+                    <p>
+                        <a href="video.html" data-video="DJSSG">DOWNHILL速降暴族</a>
+                        不良少女遇斗魂！对每天都感到无聊无趣,
+                        只想追求剌激去逃避现实.一天得到了一个头盔而遇到斗魂炎斗,
+                        炎斗请求灵芝帮忙,完成比赛目标,令他昏迷在医院的真身醒来.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+
+<!------------------------内容部分-->
+
+
+<!--热播动漫-->
+<section class="hot">
+    <div class="title">
+        <img src="img/rebodonghua.png" alt=""/>
+        <a href="video.html" data-video="DJSSG">还要更多>></a>
+        <div class="line"></div>
+    </div>
+    <div class="container marginTop">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9 hiddenUl">
+                <ul class="likeHot">
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/shaonianjinyiwei.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">少年锦衣卫</p>
+                            <p class="introduce">雨亭暗查南镇抚司 离开时遭守卫拦截</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/dajichengzhangji.jpg" alt=""/>
+                            <span class="mask">至5集</span>
+                            <p class="name">大吉成长记</p>
+                            <p class="introduce">可爱的小猫</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/koushuisanguo.jpg" alt=""/>
+                            <span class="mask">至9集</span>
+                            <p class="name">口水三国</p>
+                            <p class="introduce">国产武侠最巅峰之作</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/fenjieshijie.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">分解世界</p>
+                            <p class="introduce">末世异能热血战斗</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/tuxiaobeidegushi.jpg" alt=""/>
+                            <span class="mask">至56集</span>
+                            <p class="name">兔小贝的固执</p>
+                            <p class="introduce">经典成语教学</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/maohelaoshu.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">猫和老鼠</p>
+                            <p class="introduce">欢喜冤家童年最爱</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/shoumengren.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">狩梦人</p>
+                            <p class="introduce">亦真亦梦幻世界</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/wochadianjiuxinle.jpg" alt=""/>
+                            <span class="mask">至23集</span>
+                            <p class="name">我差点就信了</p>
+                            <p class="introduce">爆笑王子历险记</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/xiaohuludegushi.jpg" alt=""/>
+                            <span class="mask">至23集</span>
+                            <p class="name">小葫芦的故事</p>
+                            <p class="introduce">和小葫芦快乐学习</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 orderCol">
+                <div class="orderDiv">
+                    <div class="orderBy">
+                        动画排行
+                        <div>年</div>
+                        <div>月</div>
+                        <div>周</div>
+                    </div>
+                    <ul class="orderContent ">
+                        <li>
+                            <div class="orange">1</div>
+                            <div><a href="video.html" data-video="DJSSG">海贼王</a> </div>
+                            <span>97568656</span>
+                        </li>
+                        <li>
+                            <div class="orange">2</div>
+                            <div><a href="video.html" data-video="DJSSG">犬夜叉</a> </div>
+                            <span>56894126</span>
+                        </li>
+                        <li>
+                            <div class="orange">3</div>
+                            <div><a href="video.html" data-video="DJSSG">名侦探柯南</a> </div>
+                            <span>7885582</span>
+                        </li>
+                        <li>
+                            <div class="gray">4</div>
+                            <div><a href="video.html" data-video="DJSSG">银之守墓人</a> </div>
+                            <span>885582</span>
+                        </li>
+                        <li>
+                            <div class="gray">5</div>
+                            <div><a href="video.html" data-video="DJSSG">狐妖小红娘</a> </div>
+                            <span>876985</span>
+                        </li>
+                        <li>
+                            <div class="gray">6</div>
+                            <div><a href="video.html" data-video="DJSSG">纯情罗曼史</a> </div>
+                            <span>855635</span>
+                        </li>
+                        <li>
+                            <div class="gray">7</div>
+                            <div><a href="video.html" data-video="DJSSG">世界第一初恋</a> </div>
+                            <span>806535</span>
+                        </li>
+                        <li>
+                            <div class="gray">8</div>
+                            <div><a href="video.html" data-video="DJSSG">纯情罗曼史</a> </div>
+                            <span>785582</span>
+                        </li>
+                        <li>
+                            <div class="gray">9</div>
+                            <div><a href="video.html" data-video="DJSSG">春风物语</a> </div>
+                            <span>784852</span>
+                        </li>
+                        <li>
+                            <div class="gray">10</div>
+                            <div><a href="video.html" data-video="DJSSG">斩赤红之瞳</a> </div>
+                            <span>763565</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--推荐-->
+<section class="tuijian">
+    <div class="title">
+        <p class="titleText">枫叶君推荐</p>
+        <a href="" data-type="num">还要更多>></a>
+        <div class="line"></div>
+    </div>
+    <div class="container marginTop">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 hiddenUl">
+                <ul class="likeTuijian">
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/alimengzhidao.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">阿狸梦之岛</p>
+                            <p class="introduce">阿狸的梦幻日常</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/bianfuxia.jpg" alt=""/>
+                            <span class="mask">至50集</span>
+                            <p class="name">蝙蝠侠</p>
+                            <p class="introduce">蝙蝠侠卖萌无极限</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/bingchuanshidai.jpg" alt=""/>
+                            <span class="mask">预告片</span>
+                            <p class="name">冰川时代</p>
+                            <p class="introduce">小松鼠大玩家</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/haidixiaozongdui.jpg" alt=""/>
+                            <span class="mask">至32集</span>
+                            <p class="name">海底小纵队</p>
+                            <p class="introduce">海洋冒险历程</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/heizide.jpg" alt=""/>
+                            <span class="mask">至202集</span>
+                            <p class="name">黑子的篮球</p>
+                            <p class="introduce">不为篮球只为基友</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/huajianghu.jpg" alt=""/>
+                            <span class="mask">至30集</span>
+                            <p class="name">画江湖之灵主</p>
+                            <p class="introduce">乱世江湖风云再起</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/huajianghuzhi.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">画江湖之换世门生</p>
+                            <p class="introduce">乱世江湖风云再起</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/huduoduozhi.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">虎多多之i老虎you</p>
+                            <p class="introduce">虎多多呆萌爆笑来袭</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/shenjindou.jpg" alt=""/>
+                            <span class="mask">至5集</span>
+                            <p class="name">神经豆</p>
+                            <p class="introduce">神经豆的快乐生活</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/shentounaiba.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">神偷奶爸</p>
+                            <p class="introduce">小黄人引爆全场</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/shiwangelengxiahua.jpg" alt=""/>
+                            <span class="mask">至42集</span>
+                            <p class="name">十万个冷笑话</p>
+                            <p class="introduce">国产日和吐槽神作</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/tuijian/tianxingjiuge.jpg" alt=""/>
+                            <span class="mask">至8集</span>
+                            <p class="name">天行九歌</p>
+                            <p class="introduce">乱世战国九歌天行</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--亲子乐园-->
+<section class="familyPart">
+    <div class="title">
+        <p class="titleText">亲子乐园</p>
+        <a href="" data-type="num">还要更多>></a>
+        <div class="line"></div>
+    </div>
+    <div class="container marginTop">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9 hiddenUl">
+                <ul class="likeHot">
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/shaonianjinyiwei.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">少年锦衣卫</p>
+                            <p class="introduce">雨亭暗查南镇抚司 离开时遭守卫拦截</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/dajichengzhangji.jpg" alt=""/>
+                            <span class="mask">至5集</span>
+                            <p class="name">大吉成长记</p>
+                            <p class="introduce">可爱的小猫</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/koushuisanguo.jpg" alt=""/>
+                            <span class="mask">至9集</span>
+                            <p class="name">口水三国</p>
+                            <p class="introduce">国产武侠最巅峰之作</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/fenjieshijie.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">分解世界</p>
+                            <p class="introduce">末世异能热血战斗</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/tuxiaobeidegushi.jpg" alt=""/>
+                            <span class="mask">至56集</span>
+                            <p class="name">兔小贝的固执</p>
+                            <p class="introduce">经典成语教学</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/maohelaoshu.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">猫和老鼠</p>
+                            <p class="introduce">欢喜冤家童年最爱</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/shoumengren.jpg" alt=""/>
+                            <span class="mask">完结</span>
+                            <p class="name">狩梦人</p>
+                            <p class="introduce">亦真亦梦幻世界</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/wochadianjiuxinle.jpg" alt=""/>
+                            <span class="mask">至23集</span>
+                            <p class="name">我差点就信了</p>
+                            <p class="introduce">爆笑王子历险记</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="video.html" data-video="DJSSG">
+                            <img src="img/rebo/xiaohuludegushi.jpg" alt=""/>
+                            <span class="mask">至23集</span>
+                            <p class="name">小葫芦的故事</p>
+                            <p class="introduce">和小葫芦快乐学习</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 orderCol">
+                <div class="orderDiv">
+                    <div class="orderBy">
+                        动画排行
+                        <div>年</div>
+                        <div>月</div>
+                        <div>周</div>
+                    </div>
+                    <ul class="orderContent ">
+                        <li>
+                            <div class="orange">1</div>
+                            <div><a href="video.html" data-video="DJSSG">海贼王</a> </div>
+                            <span>97568656</span>
+                        </li>
+                        <li>
+                            <div class="orange">2</div>
+                            <div><a href="video.html" data-video="DJSSG">犬夜叉</a> </div>
+                            <span>56894126</span>
+                        </li>
+                        <li>
+                            <div class="orange">3</div>
+                            <div><a href="video.html" data-video="DJSSG">名侦探柯南</a> </div>
+                            <span>7885582</span>
+                        </li>
+                        <li>
+                            <div class="gray">4</div>
+                            <div><a href="video.html" data-video="DJSSG">养个男鬼当男神</a> </div>
+                            <span>7788563</span>
+                        </li>
+                        <li>
+                            <div class="gray">5</div>
+                            <div><a href="video.html" data-video="DJSSG">十万个冷笑话</a> </div>
+                            <span>7636369</span>
+                        </li>
+                        <li>
+                            <div class="gray">6</div>
+                            <div><a href="video.html" data-video="DJSSG">大耳朵图图</a> </div>
+                            <span>7002363</span>
+                        </li>
+                        <li>
+                            <div class="gray">7</div>
+                            <div><a href="video.html" data-video="DJSSG">天线宝宝</a> </div>
+                            <span>6958235</span>
+                        </li>
+                        <li>
+                            <div class="gray">8</div>
+                            <div><a href="video.html" data-video="DJSSG">黑子的篮球</a> </div>
+                            <span>6896326</span>
+                        </li>
+                        <li>
+                            <div class="gray">9</div>
+                            <div><a href="video.html" data-video="DJSSG">纯情罗曼史</a> </div>
+                            <span>6652365</span>
+                        </li>
+                        <li>
+                            <div class="gray">10</div>
+                            <div><a href="video.html" data-video="DJSSG">世界第一初恋</a> </div>
+                            <span>6523232</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<%-include("footer.ejs")%>
+
+
+
+
+
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/header1.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

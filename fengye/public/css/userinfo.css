@@ -1,0 +1,36 @@
+*{
+    font-family: "微软雅黑";
+}
+body{
+    background: url("../img/registerBG.jpg") fixed no-repeat;
+    background-size: cover;
+}
+.logo{
+    /*background-color: green;*/
+    height: 78px;
+}
+
+
+.remain{
+    color: red;
+}
+.content{
+    padding: 20px;
+    margin-top: 50px ;
+}
+
+.itemDiv{
+    text-align: right;
+}
+.btnDiv{
+    margin-top: 25px;
+}
+.saveBtn{
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 15px 26px ;
+    background-color: #ff6a09;
+    cursor: pointer;
+
+}

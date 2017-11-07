@@ -1,0 +1,336 @@
+*{
+    font-family: "微软雅黑";
+}
+
+
+/*====================================banner=========================*/
+.carousel-inner{
+    margin-top: 10px;
+}
+
+#myCarousel img{
+    width: 100%;
+    /*min-width: 1000px;*/
+    /*height: 500px;*/
+}
+.carousel-control.left,.carousel-control.right{/*左右箭头*/
+    height: 50px;
+    top: 50%;
+    width: 100px;
+    margin-top: -25px;
+    background-image: none;
+    opacity: 1;
+    color: white;
+}
+
+.textRight{
+    text-align: right;
+    margin-left: -190px;
+}
+.carousel-indicators li{/*小圆点*/
+    color: black;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background-color: white;
+    border-radius: 25px;
+    /*background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5) 100%);*/
+}
+.carousel-indicators .active{
+    /*text-align: center;*/
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background-color: orange;
+    background-image:none;
+    color:white;
+    border-radius: 25px;
+}.carousel-indicators span{
+    position: absolute;
+    margin-left: -7px;
+ }
+/*每个轮播图*/
+.carousel-caption{
+    bottom: 0;
+    padding-bottom: 0;
+    left: 20px;
+}
+.carousel-caption p{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    height: 112px;
+    position: relative;
+    padding: 7px;
+    text-align: left;
+    width: 400px;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;/*汉子字母间距，word-spacing只是单词之间Juin*/
+}
+.carousel-caption p:before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .6;
+    z-index: -1;
+}
+
+.carousel-caption a{
+    font-size: 30px;
+    color: white;
+    display: block;
+    transition: all .5s linear;
+}
+.carousel-caption a:hover{
+    text-decoration: underline;
+}
+/*=============================================内容部分====================*/
+/*总体框架设计*/
+section .title{
+    padding: 50px 30px 0 30px;/*与上部分banner保留间隙，以及右和左*/
+    position: relative;
+
+}
+section .title .line{
+    height: 4px;
+    width: 100%;
+    background-color: #c8c8c8;
+}
+section .title a{
+    position: absolute;
+    right: 50px;
+    bottom: 5px;
+    text-decoration: none;
+    color: gray;
+}
+section .title a:link,section .title a:visited,
+section .title a:hover,section .title a:active{
+    text-decoration: none;
+    color: gray;
+}
+section .title a:hover{
+    color: orange;
+}
+/*和热播动画相同结构的section*/
+.hiddenUl{/*帮助使ul设置850px宽，让其中内容溢出隐藏*/
+    overflow: hidden;
+}
+.marginTop{/*使内容与上一部分保留间隙*/
+    margin-top: 40px;
+}
+.likeHot{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 850px;/*850刚好装满一行的图片*/
+    height: 580px;
+}
+.likeHot li{
+    list-style: none;
+    float: left;
+    position: relative;
+    height: 270px;
+    margin: 20px 20px 0 0;
+    /*border: 1px solid red;*/
+}
+
+.likeHot a:link,.likeHot a:visited,.likeHot a:hover,.likeHot a:active{
+    text-decoration: none;
+}
+.likeHot p{
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    color: gray;
+}
+.likeHot .name{
+    font-size: 15px;
+    color: black;
+}
+.likeHot .name:hover{
+    color: orange;
+}
+.likeHot .mask{
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+    background-color: gray;
+    color: white;
+    padding: 0 6px 0 6px;
+}
+/*第一个li的结构设计*/
+.likeHot li:first-child .mask{
+    bottom: 0;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(66, 66, 66, 0.69);
+}
+.likeHot li:first-child p{
+    margin-left:10px;
+    position: absolute;
+    color: white;
+
+}
+.likeHot li:first-child .name{
+    font-size: 17px;
+    bottom: 30px;
+}
+.likeHot li:first-child .introduce{
+    bottom: 0;
+}
+.likeHot img:hover{
+    opacity: .5;
+}
+
+/*==排行的div部分*/
+.orderCol{
+    padding-right: 0;
+    overflow: hidden;
+}
+.orderDiv{/*最外面的div*/
+    margin: 20px 0 0 0 ;
+    width: 100%;
+    height: 500px;
+    /*background-color: red;*/
+    min-width: 277px;
+
+
+}
+.orderBy{/*排行选择*/
+    position: relative;
+    font-size: 24px;
+    background-color: gray;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+
+}
+.orderBy:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 5px;
+    background-color: orange;
+    left: -5px;
+    top: 0;
+}
+.orderBy div{
+    padding-bottom: 2px;
+    display: inline-block;
+    width: 20px;
+    cursor: pointer;
+    font-size: 18px;
+
+    /*float: right;*/
+
+}
+.orderBy div:first-child{
+    margin-left: 60px;
+}
+.orderBy div:hover{
+    color: orange;
+}
+/*排行的内容*/
+.orderContent{
+    padding: 0;
+    margin-top: 40px;
+}
+.orderContent li{
+    list-style: none;
+    margin-top: 10px;
+    position: relative;
+}
+.orderContent div{
+
+    display:inline-block;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+
+}
+.orange{/*前3名背景黄色的*/
+    background-color: orange;
+    width: 50px;
+    font-size: 20px;
+}
+.gray{/*后7名背景色灰色的*/
+    background-color: gray;
+    width: 50px;
+    font-size: 20px;
+}
+.orderContent span{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+/*========================================推荐=======================*/
+section .title .titleText{
+    display: inline-block;
+    /*color: orange;*/
+    font-size: 24px;
+}
+
+.likeTuijian{/*类似推荐架构的排版*/
+    padding: 0;
+    min-width: 1140px;
+}
+.likeTuijian li{
+    list-style: none;
+    float: left;
+    position: relative;
+    margin: 20px 20px 0 0;
+}
+.likeTuijian a:link,.likeTuijian a:visited,
+.likeTuijian a:hover,.likeTuijian a:active{
+    text-decoration: none;
+}
+
+.likeTuijian p{
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    color: gray;
+}
+.likeTuijian .name{
+    font-size: 15px;
+    color: black;
+}
+.likeTuijian .name:hover{
+    color: orange;
+}
+.likeTuijian .mask{
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+    background-color: gray;
+    color: white;
+    padding: 0 6px 0 6px;
+}
+.likeTuijian img:hover{
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

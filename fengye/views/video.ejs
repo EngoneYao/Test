@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>视频播放</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/video.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+</head>
+<body>
+
+
+<!--导航-->
+<nav class="container-fluid">
+    <ul class="text-center row col-lg-12 col-md-12 col-sm-12">
+        <li>
+            <a href="index.html">首页</a>
+        </li>
+        <li>
+            <a href="videotype.html">动漫分类</a>
+        </li>
+        <li>
+            <a href="videotype.html">日本新番</a>
+        </li>
+        <li>
+            <a href="videotype.html">完结动画</a>
+        </li>
+        <li>
+            <a href="videotype.html">热血</a>
+        </li>
+        <li>
+            <a href="pictures.html">美图</a>
+        </li>
+        <li>
+            <a href="">活动</a>
+        </li>
+        <li>
+            <a href="contact.html">联系我们</a>
+        </li>
+        <li>
+            <a href="">充值</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="row videoDiv">
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+            <div class="video">
+                <video src="video/DJSSG1.mp4" data-video="DJSSG" controls></video>
+                <div class="down">下载</div>
+            </div>
+
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 whichVideo">
+            <div class="videoName">
+                <h4>东京食尸鬼</h4>
+                <h5>7.4分</h5>
+            </div>
+            <div class="videoItemDiv">
+                <div class="videoItem play">1</div>
+                <!--<div class="videoItem">2</div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<%-include("footer.ejs")%>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/video.js"></script>
+</body>
+</html>

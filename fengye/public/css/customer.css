@@ -1,0 +1,123 @@
+
+/*=====================头部======================*/
+.hiddenUl{/*帮助下面min-width：420px溢出隐藏*/
+    overflow: hidden;
+}
+header ul{
+    display: inline-block;
+    height: 78px;
+    padding: 0;
+    min-width: 420px;
+}
+header li{
+    list-style: none;
+    float: left;
+    height: 78px;
+    line-height: 78px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+header li a{
+    color: gray;
+}
+.logo{
+    height: 78px;
+    float: left;
+
+}
+/*=========================背景图部分=======*/
+.headerBg{
+    margin-top: 20px;
+    background-image: url("../img/customer.jpg");
+    height: 251px;
+    background-position: -400px 0;
+}
+/*==============================内容部分===============*/
+.main h2{
+    margin: 20px 0 20px 0;
+}
+.main>div>div>p{
+    margin:30px 0 20px 0 ;
+    font-size: 16px;
+    font-weight: 300;
+}
+.main li{
+    /*text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
+    list-style: none;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.red{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================脚=============*/
+footer{
+    margin-top:150px;
+    background-color: rgba(0, 0, 0, 0.78);
+    color: white;
+}
+
+footer .line{
+    height: 4px;
+    width: 100%;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    padding: 0;
+
+}
+
+footer li{
+    list-style: none;
+}
+
+
+footer .footerMain p{
+    font-size: 20px;
+    margin: 0;
+}
+footer .footerMain>li:before{
+    float: left;
+    content:"";
+    margin-top: 10px;
+    height: 20px;
+    width: 4px;
+    background-color: #f1af0e;
+}
+footer .footerMain>li li{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+footer .footerMain>li li:first-child{
+    margin-left: 30px;
+}
+
+footer a,footer a:link,footer a:visited,footer a:hover,footer a:active{
+    text-decoration: none;
+    color: gray;
+}
+footer a:hover{
+    color: orange;
+}
+

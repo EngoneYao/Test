@@ -1,0 +1,207 @@
+
+/*====================头部部分============*/
+/*=====logo=*/
+.logo{
+    /*background-color: green;*/
+    height: 78px;
+}
+/*==搜索框==*/
+.search{
+    font-size: 16px;
+    /*background-color: red;*/
+    padding: 19px 0 19px 0;/*保证三部分都是78px的高*/
+}
+.searchDiv{
+    border-radius: 8px;
+    border: 1px solid #c5c5c5;
+    display: inline-block;
+    background-color: #ffab4a;
+    overflow: hidden;/*没有给input设置圆角*/
+}
+.searchDiv input{
+    border: none;
+    padding: 8px 0 8px 5px;
+    outline: none;/*这是获取焦点时的轮廓*/
+}
+
+.searchDiv span{
+    padding: 0 20px 0 20px;
+    top: 2px;
+    color: #e1e1e1;
+}
+.searchDiv span:hover{
+    cursor: pointer;
+}
+/*登录注册部分*/
+.user{
+    /*background-color: green;*/
+    height: 78px;
+    line-height: 78px;
+}
+
+/*============================导航部分========================*/
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #ffab4a;
+    overflow: hidden;
+}
+nav li{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    /*background-color: red;*/
+}
+nav li:first-child{
+    margin-left: 0;
+}
+nav li:hover{
+    background-color: #ff891c;
+}
+nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+}
+nav a:link,nav a:visited,nav a:hover,nav a:active{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*=========================图片类型选择=====================================*/
+.picType ul{
+    padding: 0;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.picType li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.picType span{
+    cursor: pointer;
+    color: rgba(0, 0, 156, 0.85);
+}
+.picType span:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 182, 0.52);
+    text-decoration: underline;
+}
+
+/*============================图片部分======================================*/
+.pic{
+    padding: 0;
+}
+.pic li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.pic li img{
+    height: 200px;
+    width: auto;
+    cursor: pointer;
+}
+.pic li span{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: -30px;
+    color: white;
+    transition: all .3s linear;
+    background-image: -webkit-gradient(linear, right top, right bottom, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+
+}
+.pic li:hover  span {
+    background-image: -webkit-gradient(linear, right top, right bottom, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+    bottom:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================脚=============*/
+footer{
+    margin-top:150px;
+    background-color: rgba(0, 0, 0, 0.78);
+    color: white;
+}
+
+footer .line{
+    height: 4px;
+    width: 100%;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    padding: 0;
+
+}
+
+footer li{
+    list-style: none;
+}
+
+
+footer .footerMain p{
+    font-size: 20px;
+    margin: 0;
+}
+footer .footerMain>li:before{
+    float: left;
+    content:"";
+    margin-top: 10px;
+    height: 20px;
+    width: 4px;
+    background-color: #f1af0e;
+}
+footer .footerMain>li li{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+footer .footerMain>li li:first-child{
+    margin-left: 30px;
+}
+
+footer a,footer a:link,footer a:visited,footer a:hover,footer a:active{
+    text-decoration: none;
+    color: gray;
+}
+footer a:hover{
+    color: orange;
+}
+

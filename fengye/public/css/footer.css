@@ -1,0 +1,63 @@
+
+*{
+    font-family: "微软雅黑";
+}
+
+
+
+
+
+/*===========================脚=============*/
+footer{
+    margin-top:150px;
+    background-color: rgba(0, 0, 0, 0.78);
+    color: white;
+}
+
+footer .line{
+    height: 4px;
+    width: 100%;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    padding: 0;
+
+}
+
+footer li{
+    list-style: none;
+}
+
+
+footer .footerMain p{
+    font-size: 20px;
+    margin: 0;
+}
+footer .footerMain>li:before{
+    float: left;
+    content:"";
+    margin-top: 10px;
+    height: 20px;
+    width: 4px;
+    background-color: #f1af0e;
+}
+footer .footerMain>li li{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+footer .footerMain>li li:first-child{
+    margin-left: 30px;
+}
+
+footer a,footer a:link,footer a:visited,footer a:hover,footer a:active{
+    text-decoration: none;
+    color: gray;
+}
+footer a:hover{
+    color: orange;
+}
+
